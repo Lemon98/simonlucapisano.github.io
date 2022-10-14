@@ -1,4 +1,4 @@
-var dist = 10;
+let dist = 10;
 
 function setup() {
   createCanvas(600, 600);
