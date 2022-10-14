@@ -8,5 +8,5 @@ function draw() {
   background(255);
   fill(151);
   noStroke();
-  rect(30, 30, 50, 50);
+  rect(dist, dist, width-(2*dist),50);
 }
