@@ -4,7 +4,7 @@ let rectH = 50;
 function setup() {
   var cnv = createCanvas(1000, 700);
   var x = (windowWidth - width)/2;
-  var y = (windowHeight - height)/2;
+  var y = 0;
   cnv.position(x, y);
 }
 
