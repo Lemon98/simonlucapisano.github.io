@@ -5,8 +5,8 @@ function setup() {
 }
 
 function draw() {
-  background(200);
-  fill(151);
+  background(225);
+  fill(151, 75);
   noStroke();
-  rect(dist, dist, width-(2*dist),50);
+  rect(dist, dist, width-(2*dist),50, 12);
 }
