@@ -1,7 +1,6 @@
 html, body {
-  margin: 50;
+  margin: 500;
   padding: 50;
-  font-family: "Roboto", Sans-serif;
 }
 
 canvas {
