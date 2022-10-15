@@ -1,5 +1,5 @@
 :root {
-  --bg-color: rgb(30, 30, 80);
+  --bg-color: rgb(0 50 100);
   --ff-primary: "Be Vietnam Pro", sans-serif;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  font-family: var(--ff-primary); 
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
