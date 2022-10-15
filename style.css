@@ -1,8 +1,5 @@
 html, body {
+  background: rgb(30, 30, 80);
   margin: 500;
   padding: 50;
-}
-
-canvas {
-  display: block;
 }
