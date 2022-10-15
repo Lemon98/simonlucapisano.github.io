@@ -1,6 +1,8 @@
 :root {
-  --text-color: rebeccapurple;
-
+  --bg-color: rgb(30, 30, 80);
+  --ff-primary: "Be Vietnam Pro", sans-serif;
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
 }
 /* Box sizing rules */
 *,
@@ -11,7 +13,7 @@
 
 /* Remove default margin */
 * {
-  background: var(--text-color);
+  background: var(--bg-color);
   margin: 0;
   padding: 0;
   color: white;
