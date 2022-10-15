@@ -1,6 +1,7 @@
 :root {
-  --bg-color: #0a2350;
-  --clr-sec: #84a4fc;
+  --bg-color: #a6c5ff;
+  --clr-head: #5581fc;
+  --clr-barra: rgb(10,35,80);
   --ff-primary: "Be Vietnam Pro", sans-serif;
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
