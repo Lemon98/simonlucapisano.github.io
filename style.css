@@ -1,4 +1,7 @@
+:root {
+  --text-color: rebeccapurple;
 
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -8,7 +11,7 @@
 
 /* Remove default margin */
 * {
-  background: rgb(30, 30, 80);
+  background: var(--text-color);
   margin: 0;
   padding: 0;
   color: white;
