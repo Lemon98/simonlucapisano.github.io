@@ -2,7 +2,9 @@
   --bg-color: #a6c5ff;
   --clr-head: #5581fc;
   --clr-barra: rgb(10,35,80);
-  --clr-bottoni: #ff711f;
+  --clr-bottoni: #ff792c;
+  --clr-bottoni-dark: #cf6528;
+
 
   --ff-primary: "Be Vietnam Pro", sans-serif;
   --ff-body: var(--ff-primary);
@@ -25,7 +27,41 @@
 }
 
 .bottone-allegati {
-  color: var(--clr-bottoni);
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: var(--clr-bottoni) .070em solid;
+  padding: .5em;
+  background: var(--clr-bottoni);
+  border-radius: 1em;
+}
+
+.bottone-allegati:hover,
+.bottone-allegati:focus {
+  background: var(--clr-bottoni-dark);
+  border: currentColor;
+  color: white;
+}
+
+.bottone-home {
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: var(--clr-bottoni) .070em solid;
+  padding: .5em;
+  background: var(--clr-bottoni);
+  border-radius: 1em;
+}
+
+.bottone-home:hover,
+.bottone-home:focus {
+  background: var(--clr-bottoni-dark);
+  border: currentColor;
+  color: white;
 }
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
