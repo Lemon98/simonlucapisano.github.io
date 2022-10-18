@@ -22,7 +22,7 @@ html {
   border-right: 25rem;
 }
 
-p {
+div {
   font-size: .75rem;
 }
 
@@ -32,15 +32,15 @@ p {
   cursor: pointer;
   text-decoration: none;
   color: white;
-  /*border: var(--clr-bottoni-dark) .070em solid;*/
+  border: var(--clr-bottoni-dark) .070em solid;
   background: var(--clr-bottoni);
-  padding: .25rem;
+  padding: .5rem;
   border-radius: 1em;
 }
 
 .bottone-allegati:hover,
 .bottone-allegati:focus {
-  border: white .1em solid;
+  border: white .070em solid;
   color: white;
 }
 
@@ -50,14 +50,15 @@ p {
   cursor: pointer;
   text-decoration: none;
   color: white;
-  /*border: var(--clr-bottoni-dark) .070em solid;*/
+  border: var(--clr-bottoni-dark) .070em solid;
   background: var(--clr-bottoni);
+  padding: .5em;
   border-radius: 1em;
 }
 
 .bottone-home:hover,
 .bottone-home:focus {
-  border: white .70em solid;
+  border: white .070em solid;
   color: white;
 }
 
@@ -65,7 +66,7 @@ p {
   width: 17rem;
   border: none;
   background: var(--clr-barra);
-  
+
 }
 
 
