@@ -17,6 +17,15 @@
   font-family: var(--ff-primary); 
 }
 
+html {
+  border-left: 25rem;
+  border-right: 25rem;
+}
+
+p {
+  font-size: .75rem;
+}
+
 .bottone-allegati {
   font-size: 1rem;
   display: inline-block;
@@ -54,7 +63,9 @@
 
 .box-sinistra {
   width: 17rem;
+  border: none;
   background: var(--clr-barra);
+  
 }
 
 
