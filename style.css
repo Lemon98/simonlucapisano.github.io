@@ -12,8 +12,8 @@
 * {
   background: var(--bg-color);
   margin: 0;
-  padding: 0;
   color: white;
+  padding: .25rem;
   font-family: var(--ff-primary); 
 }
 
@@ -23,15 +23,15 @@
   cursor: pointer;
   text-decoration: none;
   color: white;
-  border: var(--clr-bottoni-dark) .070em solid;
-  padding: .5em;
+  /*border: var(--clr-bottoni-dark) .070em solid;*/
   background: var(--clr-bottoni);
+  padding: .25rem;
   border-radius: 1em;
 }
 
 .bottone-allegati:hover,
 .bottone-allegati:focus {
-  border: white .070em solid;
+  border: white .1em solid;
   color: white;
 }
 
@@ -41,17 +41,24 @@
   cursor: pointer;
   text-decoration: none;
   color: white;
-  border: var(--clr-bottoni-dark) .070em solid;
-  padding: .5em;
+  /*border: var(--clr-bottoni-dark) .070em solid;*/
   background: var(--clr-bottoni);
   border-radius: 1em;
 }
 
 .bottone-home:hover,
 .bottone-home:focus {
-  border: white .070em solid;
+  border: white .70em solid;
   color: white;
 }
+
+.box-sinistra {
+  width: 17rem;
+}
+
+
+
+
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
