@@ -1,7 +1,7 @@
 :root {
   --bg-color: #a6c5ff;
   --clr-head: #5581fc;
-  --clr-barra: rgb(10,35,80);
+  --clr-barra: rgb(12, 41, 94);
   --clr-bottoni: #ff792c;
   --clr-bottoni-dark: #cf6528;
 
@@ -54,6 +54,7 @@
 
 .box-sinistra {
   width: 17rem;
+  background: var(--clr-barra);
 }
 
 
