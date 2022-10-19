@@ -10,7 +10,6 @@
 
 /* Remove default margin */
 * {
-  background: var(--bg-color);
   margin: 0;
   color: white;
   padding: .25rem;
@@ -20,6 +19,7 @@
 html {
   border-left: 25rem;
   border-right: 25rem;
+  background: var(--bg-color);
 }
 
 div {
@@ -36,6 +36,7 @@ div {
   background: var(--clr-bottoni);
   padding: .5rem;
   border-radius: 1em;
+  margin: .25rem;
 }
 
 .bottone-allegati:hover,
@@ -64,14 +65,14 @@ div {
 
 .box-sinistra {
   width: 17rem;
+  height: 100rem;
   border: none;
   background: var(--clr-barra);
-
 }
 
-
-
-
+.foto-profilo {
+  text-align: center;
+}
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
