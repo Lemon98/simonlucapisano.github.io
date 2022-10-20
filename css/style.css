@@ -9,7 +9,7 @@
 }
 
 /* Remove default margin */
-* {
+* div:not(.box-sinistra) {
   margin: 0;
   color: white;
   padding: .25rem;
@@ -64,14 +64,18 @@ div {
 }
 
 .box-sinistra {
-  width: 17rem;
-  height: 100rem;
+  width: 232px;
+  height: 70rem;
   border: none;
   background: var(--clr-barra);
+  padding: none;
 }
 
 .foto-profilo {
-  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
