@@ -31,7 +31,7 @@ div {
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: #413f3d;
   border: var(--clr-bottoni-dark) .070em solid;
   background: var(--clr-bottoni);
   padding: .5rem;
