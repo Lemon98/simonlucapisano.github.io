@@ -4,8 +4,7 @@
   --clr-barra: rgb(12, 41, 94);
   --clr-bottoni: #b1a6a4;
   --clr-bottoni-dark: #928a88;
-
-  --ff-primary: "Roboto", sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
   --ff-color: #413f3d;
 }
 
@@ -40,8 +39,10 @@ div {
 
 .bottone-allegati:hover,
 .bottone-allegati:focus {
-  border: white .070em solid;
+  /*border: white .070em solid;*/
   color: --ff-color;
+  background: var(--clr-bottoni);
+
 }
 
 .bottone-cv {
