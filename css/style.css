@@ -45,6 +45,25 @@ div {
   color: white;
 }
 
+.bottone-cv {
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: var(--clr-bottoni-dark) .070em solid;
+  background: var(--clr-bottoni);
+  padding: .5rem;
+  border-radius: 1em;
+  margin: .25rem;
+}
+
+.bottone-cv:hover,
+.bottone-cv:focus {
+  border: white .070em solid;
+  color: white;
+}
+
 .bottone-home {
   font-size: 1rem;
   display: inline-block;
