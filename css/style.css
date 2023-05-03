@@ -13,7 +13,6 @@
   color: white;
   padding: .25rem;
   font-family: 'Roboto', sans-serif; 
-  color: var(--ff-color);
 
 }
 
@@ -31,7 +30,6 @@ div {
 .nav-list {
   display: flex;
   gap: 1rem;
-  color: var(--ff-color);
   padding: 0;
   border-radius: 2px;
   margin: 0;
@@ -39,7 +37,6 @@ div {
 }
 
 nav-list li {
-  color: var(--ff-color);
   padding: 2px;
   background: var(--clr-bottoni);
   border-radius: 2px;
@@ -48,7 +45,6 @@ nav-list li {
 
 .nav-list li:hover,
 .nav-list li:focus {
-  color: var(--ff-color);
   background: var(--clr-bottoni-dark);
   border-radius: 5px;
   padding: 2px;
@@ -63,6 +59,7 @@ header {
   height: 70rem;
   border: none;
   background: var(--clr-barra);
+  color: white;
   padding: none;
 }
 
