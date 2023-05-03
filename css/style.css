@@ -4,7 +4,6 @@
   --clr-barra: rgb(12, 41, 94);
   --clr-bottoni: #b1a6a4;
   --clr-bottoni-dark: #928a88;
-  --ff-primary: 'Roboto', sans-serif;
   --ff-color: #413f3d;
 }
 
@@ -13,75 +12,52 @@
   margin: 0;
   color: white;
   padding: .25rem;
-  font-family: 'Roboto', sans-serif/*var(--ff-primary)*/; 
+  font-family: 'Roboto', sans-serif; 
+  color: var(--ff-color);
+
 }
 
-html {
-  border-left: 25rem;
-  border-right: 25rem;
+html > * {
+  border-left: auto;
+  border-right: auto;
   background: var(--bg-color);
+  color: var(--ff-color);
 }
 
 div {
   font-size: .75rem;
 }
 
-.bottone-allegati {
-  font-size: 1rem;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  color: --ff-color;
-  padding: .5rem;
-  border-radius: 1em;
-  margin: .25rem;
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  color: var(--ff-color);
+  padding: 0;
+  border-radius: 2px;
+  margin: 0;
+  list-style: none;
 }
 
-.bottone-allegati:hover,
-.bottone-allegati:focus {
-  /*border: white .070em solid;*/
-  color: --ff-color;
+nav-list li {
+  color: var(--ff-color);
+  padding: 2px;
   background: var(--clr-bottoni);
-
+  border-radius: 2px;
+  padding: 2px;
 }
 
-.bottone-cv {
-  font-size: 1rem;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  color: --ff-color;
-  border: var(--clr-bottoni-dark) .070em solid;
-  background: var(--clr-bottoni);
-  padding: .5rem;
-  border-radius: 1em;
-  margin: .25rem;
+.nav-list li:hover,
+.nav-list li:focus {
+  color: var(--ff-color);
+  background: var(--clr-bottoni-dark);
+  border-radius: 5px;
+  padding: 2px;
 }
 
-.bottone-cv:hover,
-.bottone-cv:focus {
-  border: white .070em solid;
-  color: --ff-color;
+header {
+  --border-width: 5px;
 }
-
-.bottone-home {
-  font-size: 1rem;
-  display: inline-block;
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-  border: var(--clr-bottoni-dark) .070em solid;
-  background: var(--clr-bottoni);
-  padding: .5em;
-  border-radius: 1em;
-}
-
-.bottone-home:hover,
-.bottone-home:focus {
-  border: white .070em solid;
-  color: white;
-}
-
+ 
 .box-sinistra {
   width: 232px;
   height: 70rem;
