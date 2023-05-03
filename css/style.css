@@ -1,5 +1,6 @@
 :root {
   --bg-color: #d8cfd0;
+  --bg-color-dark:#bab3b4;
   --clr-head: #5581fc;
   --clr-barra: rgb(12, 41, 94);
   --clr-bottoni: #b1a6a4;
@@ -21,12 +22,21 @@ html > * {
   color: var(--ff-color);
 }
 
-div {
-  font-size: 1rem;
+img {
+  border-radius: 1rem;
 }
 
 div {
+  font-size: 1rem;
+  /*outline: 2px solid black;*/
   padding: 0.5rem;
+  
+}
+
+div:not([class]) {
+  background-color: #bab3b4;
+  margin: 0.5rem;
+  border-radius: 1rem;
 }
 
 .testa, .corpo {
@@ -34,13 +44,16 @@ div {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.testa > *{
+.testa, .corpo h2, .piede h2{
   text-align: center;
 }
 
 
 h1, h2, h3 {
   font-weight: 700;
+}
+h1 {
+  text-align: center;
 }
 
 .nav-list {
