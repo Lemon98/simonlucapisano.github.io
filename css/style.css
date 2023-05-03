@@ -26,13 +26,18 @@ div {
 }
 
 div {
-  outline: 2px solid black;
   padding: 0.5rem;
 }
 
-.testa {
+.testa, .corpo {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+.testa > *{
+  text-align: center;
+}
+
 
 h1, h2, h3 {
   font-weight: 700;
