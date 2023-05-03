@@ -8,12 +8,10 @@
 }
 
 /* Remove default margin */
-* div:not(.box-sinistra) {
+* div {
   margin: 0;
-  color: white;
   padding: .25rem;
   font-family: 'Roboto', sans-serif; 
-
 }
 
 html > * {
@@ -24,7 +22,20 @@ html > * {
 }
 
 div {
-  font-size: .75rem;
+  font-size: 1rem;
+}
+
+div {
+  outline: 2px solid black;
+  padding: 0.5rem;
+}
+
+.testa {
+  display: grid;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
 }
 
 .nav-list {
